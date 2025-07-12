@@ -1,0 +1,128 @@
+body {
+    margin: 0;
+    background-color: #f0f4f8;
+    color: #c44747;
+}
+
+.container {
+    width: 70%;
+    margin: 20px auto;
+    border: 3px solid #100f0f;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.profile-section {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.user-profile {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.filter-search {
+    display: flex;
+    gap: 10px;
+    margin: 20px 0;
+}
+
+input[type="text"] {
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+}
+
+button {
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.card {
+    background: #f8f7f7;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 3px dotted black;
+}
+
+.profile-photo {
+    width: 100px;
+    height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+    background-color: #0c0c0c;
+
+}
+
+.info {
+    flex: 1;
+    padding-left: 20px;
+}
+
+.rating {
+    font-size: 0.9em;
+    color: #ccc;
+}
+
+.status {
+    text-align: right;
+}
+
+.status span {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.pending {
+    color: #f0ad4e;
+}
+
+.accept {
+    background-color: green;
+    color: white;
+    border: none;
+    margin-right: 5px;
+}
+
+.reject {
+    background-color: red;
+    color: white;
+    border: none;
+}
+
+.rejected {
+    color: red;
+    font-weight: bold;
+}
+
+.pagination {
+    text-align: center;
+    margin-top: 20px;
+    color: #101010;
+    font-style: bold;
+}
+
+.page {
+    margin: 5px;
+    cursor: pointer;
+    padding: 10px 15px;
+}
+
+.active {
+    background: #72723e;
+    border-radius: 10px;
+}
